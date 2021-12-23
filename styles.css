@@ -1,208 +1,112 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+h4 {
+  font-size: 21px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
 body {
-  overflow-x: hidden;
-  margin: 0 auto;
-  font-size: 14.4px;
-  color: #37445a;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.03rem;
-  -webkit-box-shadow: 0 2px 12px 6px rgba(55, 68, 90, 0.04);
-          box-shadow: 0 2px 12px 6px rgba(55, 68, 90, 0.04);
+     color: #666666;
+     font-size: 15px;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.80857;
 }
 
-html {
-  background-color: #37445a;
-  background: url("../images/body-bg.jpg");
-  background-size: cover;
+.text_align_center {
+  text-align: center;
 }
 
-a, a:hover {
-  text-decoration: none !important;
-  outline: none !important;
+.center {
+  display: flex;
+  justify-content: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #37445a;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+.full {
+  float: left;
+  width: 100%;
 }
 
-.row > * {
-  position: relative;
+.white_fonts p, .white_fonts h1, .white_fonts h2, .white_fonts h3, .white_fonts h4, .white_fonts h5, .white_fonts h6, .white_fonts ul, .white_fonts ul li, .white_fonts ul li a, .white_fonts ul i, .white_fonts .post_info i, .white_fonts div, .white_fonts a.read_more {
+  color: #fff !important;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-.bg-info {
-  background-color: #00B4D8 !important;
-}
-
-.bg-soft-info {
-  background-color: rgba(0, 180, 216, 0.1) !important;
-}
-
-.text-info {
-  color: #00B4D8 !important;
+ul, li, ol{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 
-.bg-warning {
-  background-color: #ffd455 !important;
+/* Footer Starts Here */
+.footer-box {
+  background: #072745;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer-box .footer-company-name {
+  text-align: center;
+  margin: 0px;
+  color: #333;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+.footer-box .footer-company-name a {
+  color: #333;
+  text-decoration: underline !important;
+}
+.footer-box .footer-company-name a:hover {
+  color: #e91327;
 }
 
-.bg-soft-warning {
-  background-color: rgba(255, 212, 85, 0.1) !important;
-}
-
-.text-warning {
-  color: #ffd455 !important;
-}
-
-.uim-icon-warning .uim-svg {
-  fill: #ffd455 !important;
-}
-
-.bg-danger {
-  background-color: #D1495B !important;
-}
-
-.bg-soft-danger {
-  background-color: rgba(209, 73, 91, 0.1) !important;
-}
-
-.text-danger {
-  color: #D1495B !important;
-}
-
-.uim-icon-danger .uim-svg {
-  fill: #D1495B !important;
-}
-
-
-/*.bg-dark {
-  background-color: #37445a !important;
-} */
-
-.bg-soft-dark {
-  background-color: rgba(55, 68, 90, 0.1) !important;
-}
-
-.text-dark {
-  color: #37445a !important;
-}
-
-
-.bg-muted {
-  background-color: #99a1a9 !important;
-}
-
-.bg-soft-muted {
-  background-color: rgba(153, 161, 169, 0.1) !important;
-}
-
-.text-muted {
-  color: #99a1a9 !important;
-}
-
-.uim-icon-muted .uim-svg {
-  fill: #99a1a9 !important;
-}
-
-.bg-white {
-  background-color: #ffffff !important;
-}
-
-.bg-soft-white {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-.text-white {
-  color: #ffffff !important;
-}
-
-.uim-icon-white .uim-svg {
-  fill: #ffffff !important;
-}
-
-.bg-light {
-  background-color: #f6f8fb !important;
-}
-
-.bg-soft-light {
-  background-color: rgba(246, 248, 251, 0.1) !important;
-}
-
-.text-light {
-  color: #f6f8fb !important;
-}
-
-.bg-black {
-  background-color: #000000 !important;
-}
-
-.bg-soft-black {
-  background-color: rgba(0, 0, 0, 0.1) !important;
-}
-
-.text-black {
-  color: #000000 !important;
-}
-
-.h1, h1 {
-  font-size: 36px;
-}
-
-.h2, h2 {
-  font-size: 30px;
-}
-
-.h4, h4 {
-  font-size: 18px;
-}
-
-.h5, h5 {
-  font-size: 14px;
-}
-
-.h6, h6 {
-  font-size: 12px;
-}
-
-.footer-list li a {
-  color: #99a1a9 !important;
-}
-
-.footer-list li a:hover {
-  color: #0466c8 !important;
-}
-
-.social-circle li a {
-  height: 34px;
-  width: 34px;
-  color: rgba(255, 255, 255, 0.9) !important;
-  background-color: rgba(255, 255, 255, 0.06);
+ul.social_icon li a {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  float: left;
+  border-radius: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-.social-circle li a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff !important;
+ul.social_icon li i {
+  color: #000 !important;
+  line-height:35px;
 }
 
+.ul.social_icon li a:hover {
+  color: #0466c8 !important;
+}
 
+ul.social_icon li {
+  float: left;
+  margin: 0 5px;
+}
+.footer_bottom {
+  background: #05223d;
+  padding: 15px 0;
+}
+.footer_bottom p.crp {
+  float: left;
+  margin: 0;
+  color: #8d8d8c;
+  font-size: 15px;
+}
+ul.bottom_menu li a {
+  color: #8d8d8c;
+}
+ul.bottom_menu li {
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.bottom_menu {
+  float: right;
+}
+/* Footer Ends Here */
+
+/* Nav Bar Starts Here */
 .navbar-brand {
   margin-left: 80px;;
 }
@@ -211,8 +115,6 @@ h6 {
   width: 200px;
 
 }
-
-
 
 /* The side navigation menu */
 .sidenav {
