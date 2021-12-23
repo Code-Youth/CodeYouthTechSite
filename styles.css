@@ -323,3 +323,8 @@ h6 {
   .container{
   text-align: center;
   }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
