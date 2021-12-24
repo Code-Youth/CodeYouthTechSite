@@ -96,6 +96,17 @@ ul, li, ol{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.card-body p {
+  
+  overflow: hidden;
+  min-height: 5rem;
+  max-height: 5rem;
+  text-overflow: ellipsis;
+}
+
+
+
 .button1{
   color:white;
   background-color:#47425D;
