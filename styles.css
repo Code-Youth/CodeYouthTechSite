@@ -1,4 +1,4 @@
-
+/* Overall Style Starts Here */
 h4 {
   font-size: 21px;
   color: #ffffff;
@@ -35,76 +35,7 @@ ul, li, ol{
   margin: 0px;
   padding: 0px;
 }
-
-
-/* Footer Starts Here */
-.footer-box {
-  background: #072745;
-  padding: 50px 0;
-  text-align: center;
-}
-.footer-box .footer-company-name {
-  text-align: center;
-  margin: 0px;
-  color: #333;
-  font-size: 13px;
-  font-weight: 400;
-  padding-top: 2px;
-}
-.footer-box .footer-company-name a {
-  color: #333;
-  text-decoration: underline !important;
-}
-.footer-box .footer-company-name a:hover {
-  color: #e91327;
-}
-
-ul.social_icon li a {
-  width: 35px;
-  height: 35px;
-  background: #fff;
-  float: left;
-  border-radius: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-ul.social_icon li i {
-  color: #000 !important;
-  line-height:35px;
-}
-
-.ul.social_icon li a:hover {
-  color: #0466c8 !important;
-}
-
-ul.social_icon li {
-  float: left;
-  margin: 0 5px;
-}
-.footer_bottom {
-  background: #05223d;
-  padding: 15px 0;
-}
-.footer_bottom p.crp {
-  float: left;
-  margin: 0;
-  color: #8d8d8c;
-  font-size: 15px;
-}
-ul.bottom_menu li a {
-  color: #8d8d8c;
-}
-ul.bottom_menu li {
-  float: left;
-  font-size: 14px;
-  font-weight: 300;
-  margin-left: 20px;
-}
-
-.bottom_menu {
-  float: right;
-}
-/* Footer Ends Here */
+/* Overall Style Ends Here */
 
 /* Nav Bar Starts Here */
 .navbar-brand {
@@ -242,3 +173,64 @@ ul.bottom_menu li {
     display: block;
     margin-top: 0;
  }
+
+ /* Footer Starts Here */
+.footer-box {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer_links{
+  text-decoration: none;
+  color: white;
+}
+
+.footer_links:hover{
+  color: rgb(128, 168, 223);
+}
+
+ul.social_icon li a {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  float: left;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul.social_icon li i {
+  color: #000 !important;
+  line-height:35px;
+}
+
+.ul.social_icon li a:hover {
+  color: #0466c8 !important;
+}
+
+ul.social_icon li {
+  float: left;
+  margin: 0 5px;
+}
+.footer_bottom {
+  padding: 15px 0;
+}
+.footer_bottom p.crp {
+  float: left;
+  margin: 0;
+  color: #8d8d8c;
+  font-size: 15px;
+}
+ul.bottom_menu li a {
+  color: #8d8d8c;
+}
+ul.bottom_menu li {
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.bottom_menu {
+  float: right;
+}
+/* Footer Ends Here */
