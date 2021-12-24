@@ -121,8 +121,6 @@ ul, li, ol{
   background-color: #2c293b;
   }
 
-
-
   .card-body {
     align-items: center;
     justify-content: space-between;
@@ -130,7 +128,7 @@ ul, li, ol{
     display: flex;
 
   }
-
+  
   .card{
   border: 1px solid darkgrey;
   }
@@ -245,3 +243,4 @@ ul.bottom_menu li {
   float: right;
 }
 /* Footer Ends Here */
+
