@@ -21,6 +21,10 @@ body {
   justify-content: center;
 }
 
+.container{
+  text-align: center;
+}
+
 .full {
   float: left;
   width: 100%;
