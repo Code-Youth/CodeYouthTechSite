@@ -121,6 +121,8 @@ ul, li, ol{
   background-color: #2c293b;
   }
 
+
+
   .card-body {
     align-items: center;
     justify-content: space-between;
@@ -128,7 +130,7 @@ ul, li, ol{
     display: flex;
 
   }
-  
+
   .card{
   border: 1px solid darkgrey;
   }
@@ -137,7 +139,10 @@ ul, li, ol{
   text-decoration: none;
   text-align: center;
   transition-duration: 0.2s;
+  font-size: 20px;
+  margin-bottom: 0;
   }
+
   .card-title:hover{
   color: #0084ff;
   }
@@ -168,14 +173,18 @@ ul, li, ol{
   color: black;
   text-decoration: none;
   
+  
   }
   
-  .location:hover {
-  text-decoration: underline;
-  color:#0084ff;
+  .location:hover { 
+  color:#00ccffd2;
   }
-  .container{
+  
+
+  .inside {
   text-align: center;
+  
+
   }
 
   .dropdown:hover .dropdown-menu {
@@ -243,4 +252,3 @@ ul.bottom_menu li {
   float: right;
 }
 /* Footer Ends Here */
-
