@@ -1,2 +1,2 @@
 # CodeYouthTechSite
-Student Profiles Page for Official Code Youth Website - By Ali, Gursheen, Jun, Shaya
+Student Profiles Page and Portfolios page for Official Code Youth Website - By Ali, Gursheen, Jun, Prisca, Shaya, Stephen
