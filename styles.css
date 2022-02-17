@@ -5,8 +5,9 @@ h4 {
   margin-top: 25px;
 }
 <!--test-->
-body {
-     color: #666666;
+body 
+{
+    background-color: purple;
      font-size: 15px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -21,8 +22,13 @@ body {
   justify-content: center;
 }
 
-.container{
+.img_container{
   text-align: center;
+}
+
+.img_container p {
+  margin-top: 5%;
+  font-size: 13.5px;
 }
 
 .full {
@@ -39,9 +45,19 @@ ul, li, ol{
   margin: 0px;
   padding: 0px;
 }
+
+a {
+  text-transform: uppercase;
+}
+
 /* Overall Style Ends Here */
 
 /* Nav Bar Starts Here */
+
+.navbar {
+  height: 150px;
+}
+
 .navbar-brand {
   margin-left: 80px;;
 }
@@ -99,6 +115,15 @@ ul, li, ol{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+
+
+.card img {
+  height: 400px;
+  width: 481px;
+  align-content: center;
+  
 }
 
 .card-body p {
