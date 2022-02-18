@@ -7,7 +7,7 @@ h4 {
 <!--test-->
 body 
 {
-    background-color: purple;
+      background-color: black;
      font-size: 15px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -121,10 +121,11 @@ a {
 
 .card img {
   height: 400px;
-  width: 481px;
+  max-width: 100%;
   align-content: center;
   
 }
+
 
 .card-body p {
   
