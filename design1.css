@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.profile-cards {
+  margin: 100px 100px;
+}
+
+.profile {
+  display: flex;
+  height: 300px;
+  width: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile:before {
+  content: "Employed";
+  position: absolute;
+  top: 20px;
+  left: -40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  /* background-color: #47425d; */
+  background: radial-gradient(blue, lightblue);
+  padding: 5px 40px;
+  transform: rotate(320deg);
+}
+
+.profile-pic img {
+  height: 100%;
+  width: 300px;
+}
+
+.profile-info {
+  text-align: center;
+  width: 500px;
+  background-color: #212529;
+}
+
+.name {
+  /* color: #014483; */
+  color: #678fb5;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+  background-color: #1a1e21;
+}
+
+.name:hover {
+  color: #00ccffd2;
+  cursor: pointer;
+}
+
+.location {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #47425d;
+  color: white;
+  padding: 7px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #2c293b;
+  cursor: pointer;
+}
+
+.description {
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.portfolio {
+  display: block;
+  padding: 10px 100px;
+  margin-top: 20px;
+  margin-left: 110px;
+}
